@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestion de l'emploi du temps</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Emploi du temps</h1>
+
+    <!-- Liste des professeurs -->
+    <div id="professeurs">
+        <h2>Professeurs</h2>
+        <ul>
+            <li data-id="1">Professeur 1</li>
+            <li data-id="2">Professeur 2</li>
+            <li data-id="3">Professeur 3</li>
+        </ul>
+    </div>
+
+    <!-- Liste des cours -->
+    <div id="cours">
+        <h2>Cours</h2>
+        <ul>
+            <li data-id="101">Cours 1</li>
+            <li data-id="102">Cours 2</li>
+            <li data-id="103">Cours 3</li>
+        </ul>
+    </div>
+
+    <!-- Zone d'affichage des informations -->
+    <div id="details"> 
+        <h2>Détails</h2>
+        <p id="info">Cliquez sur un professeur ou un cours pour voir les détails.</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
